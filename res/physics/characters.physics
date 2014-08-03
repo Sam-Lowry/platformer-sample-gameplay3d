@@ -1,0 +1,56 @@
+collisionObject player_normal
+{
+    type = CHARACTER
+    shape = CAPSULE
+    radius = 0.33
+    height = 0.92
+    mass = 1.0
+    maxStepHeight = 0
+    maxSlopeAngle = 50
+}
+
+collisionObject player_ducking : player_normal
+{
+    radius = 0.345
+    height = 0.71
+}
+
+collisionObject enemy_slime
+{
+    type = CHARACTER
+    shape = BOX
+    extents = 0.5, 0.28, 0
+    mass = 1.0
+    maxStepHeight = 0
+    maxSlopeAngle = 0
+}
+
+collisionObject enemy_slime_trigger
+{
+    type = GHOST_OBJECT
+    shape = CAPSULE
+    radius = 0.02
+    height = 0.7
+    mass = 1.0
+}
+
+collisionObject enemy_snail : enemy_slime
+{
+    extents = 0.57, 0.32, 0
+}
+
+collisionObject enemy_snail_trigger : enemy_slime_trigger
+{
+    height = 0.74
+}
+
+collisionObject enemy_spider : enemy_slime
+{
+    extents = 0.5, 0.35, 0
+}
+
+collisionObject enemy_spider_trigger : enemy_slime_trigger
+{
+    radius = 0.1
+    height = 0.6
+}

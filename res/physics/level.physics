@@ -1,0 +1,33 @@
+collisionObject tile
+{
+    type = RIGID_BODY
+    shape = BOX
+    extents = 0.64, 0.64, 0.64
+    kinematic = true
+    linearFactor = 1, 1, 0
+    angularFactor = 0, 0, 1
+    friction = 0.1
+    restitution = 0
+    linearDamping = 0
+    angularDamping = 0
+}
+
+collisionObject half_tile : tile
+{
+    extents = 0.64, 0.32, 0.64
+}
+
+collisionObject ladder : tile
+{
+    type = GHOST_OBJECT
+    extents = 0.001, 0.02, 0.64
+}
+
+collisionObject slope_45 : tile
+{
+    extents = 0.90, 0.01, 0.64
+}
+
+collisionObject reset : ladder
+{
+}

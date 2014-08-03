@@ -1,0 +1,4 @@
+audio jump
+{
+    path = res/audio/sfx/jump.ogg
+}

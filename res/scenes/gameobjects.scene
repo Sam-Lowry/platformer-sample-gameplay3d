@@ -1,0 +1,19 @@
+scene gameobjects
+{
+    activeCamera = camera
+
+    node camera
+    {
+        camera
+        {
+            zoomX = 12.8
+            zoomY = 7.2
+            type = ORTHOGRAPHIC
+        }
+    }
+
+    physics
+    {
+        gravity = 0, -9.81, 0
+    }
+}

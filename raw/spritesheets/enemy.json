@@ -1,0 +1,68 @@
+{"frames": [
+
+{
+	"filename": "slime_dead.png",
+	"frame": {"x":2,"y":2,"w":50,"h":28},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":28},
+	"sourceSize": {"w":50,"h":28}
+},
+{
+	"filename": "slime_walk__00.png",
+	"frame": {"x":2,"y":32,"w":50,"h":28},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":28},
+	"sourceSize": {"w":50,"h":28}
+},
+{
+	"filename": "slime_walk__01.png",
+	"frame": {"x":2,"y":62,"w":50,"h":28},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":28},
+	"sourceSize": {"w":50,"h":28}
+},
+{
+	"filename": "snail_walk__00.png",
+	"frame": {"x":2,"y":92,"w":57,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":32},
+	"sourceSize": {"w":57,"h":32}
+},
+{
+	"filename": "snail_walk__01.png",
+	"frame": {"x":2,"y":126,"w":57,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":31},
+	"sourceSize": {"w":57,"h":31}
+},
+{
+	"filename": "spider_walk__00.png",
+	"frame": {"x":2,"y":159,"w":50,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":35},
+	"sourceSize": {"w":50,"h":35}
+},
+{
+	"filename": "spider_walk__01.png",
+	"frame": {"x":2,"y":196,"w":50,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":34},
+	"sourceSize": {"w":50,"h":34}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "enemy.png",
+	"format": "RGBA8888",
+	"size": {"w":64,"h":256},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:410f60ccd44074652a878d605375514e:1b111bbede814b4969681dddb2627fd4:a99356c10d69482e9bee53d25c3d05e1$"
+}
+}

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="40" tilewidth="64" tileheight="64">
+ <properties>
+  <property name="texture" value="@res/textures/tiles"/>
+ </properties>
+ <tileset firstgid="1" name="Terrain" tilewidth="64" tileheight="64">
+  <image source="../../res/textures/tiles.png" width="1024" height="1024"/>
+  <tile id="0">
+   <properties>
+    <property name="tile" value="BOX"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="tile" value="BOX"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="tile" value="BOX"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="tile" value="BOX"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="tile" value="BOX"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="tile" value="RECTANGLE_TOP"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="tile" value="RECTANGLE_TOP"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="tile" value="RECTANGLE_TOP"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="tile" value="RECTANGLE_TOP"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="tile" value="SLOPE_45_L"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="tile" value="SLOPE_45_R"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="tile" value="BOX"/>
+   </properties>
+  </tile>
+  <tile id="79">
+   <properties>
+    <property name="tile" value="RECTANGLE_BOTTOM"/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="tile" value="BOX"/>
+   </properties>
+  </tile>
+  <tile id="100">
+   <properties>
+    <property name="tile" value="SLOPE_45_L"/>
+   </properties>
+  </tile>
+  <tile id="105">
+   <properties>
+    <property name="tile" value="BOX"/>
+   </properties>
+  </tile>
+  <tile id="131">
+   <properties>
+    <property name="tile" value="BOX"/>
+   </properties>
+  </tile>
+  <tile id="135">
+   <properties>
+    <property name="tile" value="RESET"/>
+   </properties>
+  </tile>
+  <tile id="136">
+   <properties>
+    <property name="tile" value="RESET"/>
+   </properties>
+  </tile>
+  <tile id="145">
+   <properties>
+    <property name="tile" value="BOX"/>
+   </properties>
+  </tile>
+  <tile id="147">
+   <properties>
+    <property name="tile" value="BOX"/>
+   </properties>
+  </tile>
+  <tile id="149">
+   <properties>
+    <property name="tile" value="RECTANGLE_TOP"/>
+   </properties>
+  </tile>
+  <tile id="150">
+   <properties>
+    <property name="tile" value="RECTANGLE_TOP"/>
+   </properties>
+  </tile>
+  <tile id="151">
+   <properties>
+    <property name="tile" value="RECTANGLE_TOP"/>
+   </properties>
+  </tile>
+  <tile id="152">
+   <properties>
+    <property name="tile" value="RECTANGLE_TOP"/>
+   </properties>
+  </tile>
+  <tile id="153">
+   <properties>
+    <property name="tile" value="BOX"/>
+   </properties>
+  </tile>
+  <tile id="154">
+   <properties>
+    <property name="tile" value="SLOPE_45_L"/>
+   </properties>
+  </tile>
+  <tile id="156">
+   <properties>
+    <property name="tile" value="SLOPE_45_R"/>
+   </properties>
+  </tile>
+  <tile id="159">
+   <properties>
+    <property name="tile" value="BOX"/>
+   </properties>
+  </tile>
+  <tile id="161">
+   <properties>
+    <property name="tile" value="BOX"/>
+   </properties>
+  </tile>
+  <tile id="162">
+   <properties>
+    <property name="tile" value="LADDER"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="terrain" width="20" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzdltsKwjAMhqc3m/NZxdNLeASR3aljoA9qAouEmDbp5hQM/EzX5Fvs0pgs+09bgNZOv/nAuaBtI2uzDjlseuQi7QJqQLcPsa6gE6hWmA8nZyJYJMm8O3lnhcWZlcHrWife/PrwvHuKdSbPBPFWbK1PzlrsULzxALwRqAQVbD32HG2NeFhzjaLqPeTFohysnC0jDgm/lxFeqAeFfgPKOjNd7dc86zyl8ix/L4/qwvInvxx0AB3bK4l8vLxYDXBp9YB9ZWnwLUvdb3xmrFf3qS+tNiwe762e2BDP0+8olt5vwe5NBCuF56mBUF/TeKkW2kPJi+21x77de0rl3p59lu8IeXmAFZrjdu2V/xdwfxkjZy+auaZZvA74fFVH1vjM9QRpb2G9
+  </data>
+ </layer>
+ <objectgroup name="objects" width="20" height="40">
+  <object name="player" type="SPAWN" x="98" y="2458" width="55" height="24">
+   <ellipse/>
+  </object>
+  <object name="enemy_snail" type="SPAWN" x="763" y="2450" width="90" height="33">
+   <ellipse/>
+  </object>
+  <object name="enemy_spider" type="SPAWN" x="754" y="2015" width="99" height="25">
+   <ellipse/>
+  </object>
+  <object name="enemy_spider" type="SPAWN" x="500" y="1629" width="82" height="25">
+   <ellipse/>
+  </object>
+  <object name="enemy_slime" type="SPAWN" x="456" y="1038" width="90" height="30">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

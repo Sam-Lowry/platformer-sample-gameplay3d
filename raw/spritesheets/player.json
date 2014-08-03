@@ -1,0 +1,156 @@
+{"frames": [
+
+{
+	"filename": "player_climb__00.png",
+	"frame": {"x":0,"y":0,"w":66,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":92},
+	"sourceSize": {"w":66,"h":92}
+},
+{
+	"filename": "player_climb__01.png",
+	"frame": {"x":66,"y":0,"w":66,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":92},
+	"sourceSize": {"w":66,"h":92}
+},
+{
+	"filename": "player_duck.png",
+	"frame": {"x":132,"y":0,"w":69,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":71},
+	"sourceSize": {"w":69,"h":71}
+},
+{
+	"filename": "player_front.png",
+	"frame": {"x":201,"y":0,"w":66,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":92},
+	"sourceSize": {"w":66,"h":92}
+},
+{
+	"filename": "player_hurt.png",
+	"frame": {"x":267,"y":0,"w":69,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":92},
+	"sourceSize": {"w":69,"h":92}
+},
+{
+	"filename": "player_jump.png",
+	"frame": {"x":336,"y":0,"w":67,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":94},
+	"sourceSize": {"w":67,"h":94}
+},
+{
+	"filename": "player_stand.png",
+	"frame": {"x":403,"y":0,"w":66,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":92},
+	"sourceSize": {"w":66,"h":92}
+},
+{
+	"filename": "player_walk__00.png",
+	"frame": {"x":0,"y":94,"w":72,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":97},
+	"sourceSize": {"w":72,"h":97}
+},
+{
+	"filename": "player_walk__01.png",
+	"frame": {"x":72,"y":94,"w":72,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":97},
+	"sourceSize": {"w":72,"h":97}
+},
+{
+	"filename": "player_walk__02.png",
+	"frame": {"x":144,"y":94,"w":72,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":97},
+	"sourceSize": {"w":72,"h":97}
+},
+{
+	"filename": "player_walk__03.png",
+	"frame": {"x":216,"y":94,"w":72,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":97},
+	"sourceSize": {"w":72,"h":97}
+},
+{
+	"filename": "player_walk__04.png",
+	"frame": {"x":288,"y":94,"w":72,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":97},
+	"sourceSize": {"w":72,"h":97}
+},
+{
+	"filename": "player_walk__05.png",
+	"frame": {"x":360,"y":94,"w":72,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":97},
+	"sourceSize": {"w":72,"h":97}
+},
+{
+	"filename": "player_walk__06.png",
+	"frame": {"x":432,"y":94,"w":72,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":97},
+	"sourceSize": {"w":72,"h":97}
+},
+{
+	"filename": "player_walk__07.png",
+	"frame": {"x":0,"y":191,"w":72,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":97},
+	"sourceSize": {"w":72,"h":97}
+},
+{
+	"filename": "player_walk__08.png",
+	"frame": {"x":72,"y":191,"w":72,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":97},
+	"sourceSize": {"w":72,"h":97}
+},
+{
+	"filename": "player_walk__09.png",
+	"frame": {"x":144,"y":191,"w":72,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":97},
+	"sourceSize": {"w":72,"h":97}
+},
+{
+	"filename": "player_walk__10.png",
+	"frame": {"x":216,"y":191,"w":72,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":97},
+	"sourceSize": {"w":72,"h":97}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "player.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ff6db0e72109e13034e17223d7043d6f:dd871e267112215eb4a869f243535b4e:86d5339b780aedd87b35e2b7c0a7e11b$"
+}
+}
