@@ -2,7 +2,7 @@
 
 A 2D platformer made using the open source game framework Gameplay3D, other freely available cross platform tools and free to use assets.
 
-![ScreenShot](https://raw.github.com/louis-mclaughlin/platformer-sample-gameplay3d/raw/textures/platformer_big.jpg)
+![ScreenShot](https://raw.githubusercontent.com/louis-mclaughlin/platformer-sample-gameplay3d/master/raw/textures/platformer_big.jpg)
 
 ### Usage
 - Download and build [Gameplay3D](http://www.gameplay3d.org/) for your platform
