@@ -272,7 +272,7 @@ set_target_properties(${GAME_NAME} PROPERTIES
 )
 
 if ( "${CMAKE_BUILD_TYPE}" STREQUAL "DEBUG" )
-    add_definitions(-DGP_USE_MEM_LEAK_DETECTION)
+    # add_definitions(-DGP_USE_MEM_LEAK_DETECTION)
     add_definitions(-D_DEBUG)
 endif()
 
